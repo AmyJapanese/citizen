@@ -1,0 +1,103 @@
+{
+  "name": "Citizen Syntax Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#D8E7F0",
+    "editor.foreground": "#202122",
+
+    "editorLineNumber.foreground": "#8A9BA8",
+    "editorLineNumber.activeForeground": "#202122",
+
+    "editor.selectionBackground": "#CFE3F1",
+    "editor.lineHighlightBackground": "#00000008",
+    "sideBar.background": "#E3EEF4",
+    "titleBar.activeBackground": "#E3EEF4",
+    "titleBar.activeForeground": "#202122",
+    "titleBar.inactiveBackground": "#D8E6EE",
+    "titleBar.inactiveForeground": "#6B7280",
+    "sideBar.foreground": "#202122",
+
+    "activityBar.background": "#E3EEF4",
+    "activityBar.foreground": "#202122",
+    "activityBar.inactiveForeground": "#6B7280",
+
+    "editorGroupHeader.tabsBackground": "#E3EEF4",
+    "tab.activeBackground": "#EBF3F7",
+    "tab.inactiveBackground": "#E3EEF4",
+
+    "statusBar.background": "#E3EEF4",
+    "statusBar.foreground": "#202122",
+
+    "panel.background": "#E3EEF4"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+          "entity.name.function",
+          "support.function"
+      ],
+      "settings": {
+          "foreground": "#8796b0"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#e2931d"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#39adb5"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#9c3eda" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#91b859" }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean"
+      ],
+      "settings": { "foreground": "#39adb5" }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#90a4ae",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "variable.other",
+        "variable.readwrite"
+      ],
+      "settings": {
+        "foreground": "#8796b0"
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#8796b0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#8796b0"
+      }
+    }
+  ]
+}

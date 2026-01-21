@@ -1,0 +1,25 @@
+{
+  "name": "citizen-syntax",
+  "displayName": "Citizen Syntax",
+  "description": "VS Code syntax theme inspired by MediaWiki Citizen",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Citizen Syntax Light",
+        "uiTheme": "vs",
+        "path": "./themes/citizen-syntax-light.json"
+      },
+      {
+        "label": "Citizen Syntax Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/citizen-syntax-dark.json"
+      }
+    ]
+  }
+}
