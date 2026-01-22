@@ -1,7 +1,7 @@
 # Citizen Syntax for VS Code
 
 A minimal syntax highlighting theme for Visual Studio Code, inspired by the
-MediaWiki **Citizen** skin.
+MediaWiki **[Citizen](https://www.mediawiki.org/wiki/Skin:Citizen)** skin.
 
 ## Philosophy
 
@@ -29,3 +29,4 @@ No custom colors were invented.
 
 ## Status
 Experimental / personal use.
+
